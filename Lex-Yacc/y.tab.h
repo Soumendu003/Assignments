@@ -45,17 +45,33 @@ extern int yydebug;
 # define YYTOKENTYPE
   enum yytokentype
   {
-    A = 258,
-    B = 259,
-    C = 260,
-    NL = 261
+    LP = 258,
+    RP = 259,
+    NL = 260,
+    ID = 261,
+    COM = 262,
+    SC = 263,
+    DT = 264,
+    FOR = 265,
+    WHILE = 266,
+    IF = 267,
+    ELSE = 268,
+    OP = 269
   };
 #endif
 /* Tokens.  */
-#define A 258
-#define B 259
-#define C 260
-#define NL 261
+#define LP 258
+#define RP 259
+#define NL 260
+#define ID 261
+#define COM 262
+#define SC 263
+#define DT 264
+#define FOR 265
+#define WHILE 266
+#define IF 267
+#define ELSE 268
+#define OP 269
 
 /* Value type.  */
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED

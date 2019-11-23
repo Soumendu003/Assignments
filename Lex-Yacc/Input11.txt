@@ -1,0 +1,6 @@
+for(a1 = b1 ; a1 > b2 ; a += c);
+while(b_d > c);
+if(a > c)
+else
+func(a,b,a_b);
+int func1(int a, double b)

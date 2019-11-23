@@ -1,0 +1,4 @@
+int a, b8, c32;
+double fun1();
+float fun_2(int a, char);
+int fun3(int, char, float);
